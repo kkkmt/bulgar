@@ -16,7 +16,7 @@
 		> <input type="text" id="flogin"> </input>
 		> <input type="password" id="fpassword"></input>
 		<form method="post">
-		> <input type="submit"  id="loginin" name="create" value="Вход">
+			> <input type="submit"  id="loginin" name="create" value="Вход">
 		</form> 
 	</div>
 </body>
