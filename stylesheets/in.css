@@ -1,0 +1,53 @@
+body, * {
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+	color: #0F0;
+}
+
+body {
+	background: #000;
+	color: #FFF;
+}
+
+h1 {
+	font-size: 1em;
+	padding: 5px 0px 0px 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.login_form {
+	width: 250px;
+	position: fixed;
+	top: 150px;
+	left: 50%;
+	margin-left: -125px;
+	background: #000;
+}
+
+#flogin, #fpassword {
+	width: 90%;
+	border: 0px #FFF solid;
+	border-bottom: 1px #0F0 solid;
+	padding: 1px;
+	background: #000;
+	color: #0F0;
+
+}
+
+#loginin {
+	width: 90%;
+	border: 0px solid #000;
+	background: #000;
+	color: #0F0;
+	margin-top: 10px;
+	text-align: left;
+}
+
+#loginin:hover {
+	background: #000;
+	color: #0F0;
+}
