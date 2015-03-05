@@ -1,4 +1,5 @@
 <?php
+	// Временное решение входа.
 	if($_POST){
 		header( 'Refresh: 0; url=/home.html');
 	}

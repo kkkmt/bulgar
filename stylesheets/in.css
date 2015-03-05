@@ -1,18 +1,17 @@
-body, * {
+* {
 	margin: 0;
 	padding: 0;
-	font-family: monospace;
-	color: #0F0;
 }
 
 body {
+	font-family: monospace;
 	background: #000;
-	color: #FFF;
+	color: #0F0;
 }
 
 h1 {
 	font-size: 1em;
-	padding: 5px 0px 0px 0px;
+	padding-top: 5px;
 }
 
 a {
@@ -35,7 +34,6 @@ a {
 	padding: 1px;
 	background: #000;
 	color: #0F0;
-
 }
 
 #loginin {
@@ -45,9 +43,4 @@ a {
 	color: #0F0;
 	margin-top: 10px;
 	text-align: left;
-}
-
-#loginin:hover {
-	background: #000;
-	color: #0F0;
 }
