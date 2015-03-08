@@ -47,6 +47,15 @@ a:hover {
 	display: inline;
 }
 
+.header #nav_category {
+	position: fixed;
+	top: 51px;
+	width: 100%;
+	border-bottom: 1px solid #090;
+	padding: 2px 5px;
+	background: #000;
+}
+
 /* HEDER END */
 
 /* BODY START */
