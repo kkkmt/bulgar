@@ -47,7 +47,7 @@ a:hover {
 	display: inline;
 }
 
- /* HEDER END */
+/* HEDER END */
 
 /* BODY START */
 
@@ -72,3 +72,28 @@ footer {
 }
 
 /* FOOTER END */
+
+
+/* CONTENT START */
+
+.content ol li:before {
+	content: "> ";
+	/*display: inline;*/
+}
+
+.content li > ol {
+	display: none;
+	margin-left: 20px;
+}
+
+.content li > ol li:before {
+	content: none;
+}
+
+.content li:hover > ol {
+	display: block;
+	padding-left: 5px;
+	list-style-type: disc;
+}
+
+ /* CONTENT START */
