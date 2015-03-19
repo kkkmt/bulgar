@@ -1,0 +1,50 @@
+@bg_color: #000;
+@text_color: #0F0;
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: monospace;
+	background: @bg_color;
+	color: @text_color;
+}
+
+h1 {
+	font-size: 1em;
+	padding-top: 5px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.login_form {
+	width: 250px;
+	position: fixed;
+	top: 150px;
+	left: 50%;
+	margin-left: -125px;
+	background: #000;
+}
+
+#flogin, #fpassword {
+	width: 90%;
+	border: 0px #FFF solid;
+	border-bottom: 1px @text_color solid;
+	padding: 1px;
+	background: #bg_color;
+	color: @text_color;
+}
+
+#loginin {
+	width: 90%;
+	border: 0px solid @bg_color;
+	background: @bg_color;
+	color: @text_color;
+	margin-top: 10px;
+	text-align: left;
+}

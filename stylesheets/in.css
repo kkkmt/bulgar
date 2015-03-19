@@ -1,46 +1,7 @@
-* {
-	margin: 0;
-	padding: 0;
-}
-
-body {
-	font-family: monospace;
-	background: #000;
-	color: #0F0;
-}
-
-h1 {
-	font-size: 1em;
-	padding-top: 5px;
-}
-
-a {
-	text-decoration: none;
-}
-
-.login_form {
-	width: 250px;
-	position: fixed;
-	top: 150px;
-	left: 50%;
-	margin-left: -125px;
-	background: #000;
-}
-
-#flogin, #fpassword {
-	width: 90%;
-	border: 0px #FFF solid;
-	border-bottom: 1px #0F0 solid;
-	padding: 1px;
-	background: #000;
-	color: #0F0;
-}
-
-#loginin {
-	width: 90%;
-	border: 0px solid #000;
-	background: #000;
-	color: #0F0;
-	margin-top: 10px;
-	text-align: left;
-}
+*{margin:0;padding:0}
+body{font-family:monospace;background:#000;color:#0f0}
+h1{font-size:1em;padding-top:5px}
+a{text-decoration:none}
+.login_form{width:250px;position:fixed;top:150px;left:50%;margin-left:-125px;background:#000}
+#flogin,#fpassword{width:90%;border:0 #fff solid;border-bottom:1px #0f0 solid;padding:1px;background:#bg_color;color:#0f0}
+#loginin{width:90%;border:0 solid #000;background:#000;color:#0f0;margin-top:10px;text-align:left}
