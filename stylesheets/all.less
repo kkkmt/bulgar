@@ -1,0 +1,26 @@
+@bg_color: #000;
+@text_color: #0F0;
+@link_color: #ffd700;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: @bg_color;
+	color: @text_color;
+}
+
+a {
+	color: @link_color;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.border (@width: 0px, @color: @bg_color, @type: solid) {
+	border: @width @color @type;
+}
