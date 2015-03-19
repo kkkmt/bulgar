@@ -1,6 +1,8 @@
 @bg_color: #000;
 @text_color: #0F0;
+@border_color: #0F0;
 @link_color: #ffd700;
+@ff: monospace; //font-family
 
 * {
 	margin: 0;
@@ -8,8 +10,10 @@
 }
 
 body {
+	width: 100%;
 	background: @bg_color;
 	color: @text_color;
+	font-family: @ff;
 }
 
 a {
@@ -21,6 +25,11 @@ a:hover {
 	text-decoration: underline;
 }
 
-.border (@width: 0px, @color: @bg_color, @type: solid) {
+.border(@width: 0px, @color: @bg_color, @type: solid) {
 	border: @width @color @type;
 }
+
+.bottom_line(@size: 1px, @color: @border_color, @type: solid) {
+	border-bottom: @size @color @type;
+}
+

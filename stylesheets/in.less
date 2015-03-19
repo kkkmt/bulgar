@@ -3,15 +3,15 @@
 @width_form: 250px;
 
 .login_form {
+
+	// login form style
 	width: @width_form;
 	position: fixed;
 	margin-top: 15%;
 	left: 50%;
 	margin-left: -(@width_form / 2);
-}
-
-.login_form {
 	
+	// Children login form style
 	#flogin, #loginin {
 		color: @text_color;
 		background: @bg_color;
@@ -19,6 +19,10 @@
 	}
 
 	#flogin {
-		border-bottom: 1px @text_color solid;
+		.bottom_line;
+	}
+
+	#loginin {
+		padding-top: 5px;
 	}
 }

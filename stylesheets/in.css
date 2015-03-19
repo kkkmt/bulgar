@@ -2,6 +2,6 @@
 body{background:#000;color:#0f0}
 a{color:#ffd700;text-decoration:none}
 a:hover{text-decoration:underline}
-.login_form{width:250px;position:fixed;margin-top:15%;left:50%;margin-left:-125px}
-.login_form #flogin,.login_form #loginin{color:#0f0;background:#000;border:0 #000 solid}
+.login_form{width:250px;position:fixed;margin-top:15%;left:50%;margin-left:-125px}.login_form #flogin,.login_form #loginin{color:#0f0;background:#000;border:0 #000 solid}
 .login_form #flogin{border-bottom:1px #0f0 solid}
+.login_form #loginin{padding-top:5px}
