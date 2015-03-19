@@ -77,7 +77,7 @@
 
 	}
 
-	table {
+	#price_table {
 		width: 100%;
 		border-spacing: 0;
 
@@ -89,6 +89,28 @@
 		tr:hover {
 			background: lighten(@bg_color, 10%);
 		}
+	}
+
+	#description_table {
+		width: 50%;
+
+		input {
+			background: @bg_color;
+			color: @text_color;
+			.border;
+			.bottom_line;
+		}
+	}
+
+	#set_button {
+		padding: 2px 5px;
+		background: @bg_color;
+		color: @text_color;
+		.border(1px, lighten(@bg_color, 10%), solid);
+	}
+
+	#set_button:hover {
+		.inverse_color;
 	}
 }
 
