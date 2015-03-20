@@ -2,11 +2,10 @@
 
 @header_height: 50px;
 @footer_height: 11px;
-@nav_height: 15px;
+@nav_height:    15px;
 
 .header {
 	// header style
-
 	width: 100%;
 	height: @header_height;
 
@@ -17,10 +16,9 @@
 	background: @bg_color;
 	.bottom_line;
 
-
 	// Children header 
 	h3 {
-		@lw: 180px;
+		@lw: 180px; // logo(title) width 
 		width: @lw;
 		position: fixed;
 		left: 50%; 
@@ -65,16 +63,11 @@
 		}
 
 		ol {
-			margin-left: +10px;
+			margin-left: 10px;
 			li {
 				list-style-type: none;
 			}
-
-			li:before {
-				content: ">";
-			}
 		}
-
 	}
 
 	#price_table {
@@ -86,13 +79,16 @@
 			.border;
 		}
 
-		tr:hover {
-			background: lighten(@bg_color, 10%);
+		tr {
+			&:hover {
+				background: lighten(@bg_color, 10%);
+			}
 		}
 	}
 
 	#description_table {
-		width: 50%;
+		width: 100%;
+		padding: 5px;
 
 		input {
 			background: @bg_color;
@@ -103,14 +99,15 @@
 	}
 
 	#set_button {
+		margin: 5px;
 		padding: 2px 5px;
 		background: @bg_color;
 		color: @text_color;
 		.border(1px, lighten(@bg_color, 10%), solid);
-	}
 
-	#set_button:hover {
-		.inverse_color;
+		&:hover {
+			.inverse_color;
+		}
 	}
 }
 
@@ -121,6 +118,6 @@ footer {
 	bottom: 0px;
 	width: 100%;
 	font-size: @footer_height;
-	border-top: 1px @text_color solid;
+	border-top: 1px @border_color solid;
 	padding: 0px 5px;
 }

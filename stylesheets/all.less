@@ -1,6 +1,6 @@
-@bg_color: #000;
-@text_color: #0F0;
-@border_color: #0F0;
+@bg_color: #000; 
+@text_color: #0F0; 
+@border_color: #0F0; 
 @link_color: #ffd700;
 @ff: monospace; //font-family
 
@@ -19,11 +19,12 @@ body {
 a {
 	color: @link_color;
 	text-decoration: none;
+	
+	&:hover {
+		text-decoration: underline;
+	}
 }
 
-a:hover {
-	text-decoration: underline;
-}
 
 .border(@width: 0px, @color: @bg_color, @type: solid) {
 	border: @width @color @type;
