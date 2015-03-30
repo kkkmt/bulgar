@@ -1,7 +1,6 @@
 *{margin:0;padding:0}
 body{width:100%;background:#000;color:#0f0;font-family:monospace}
 a{color:#ffd700;text-decoration:none}a:hover{text-decoration:underline}
-.inverse_color{background:#0f0;color:#000}
 .login_form{width:250px;position:fixed;margin-top:15%;left:50%;margin-left:-125px}.login_form #flogin,.login_form #loginin{color:#0f0;background:#000;border:0 #000 solid}
 .login_form #flogin{border-bottom:1px #0f0 solid}
 .login_form #loginin{padding-top:5px}

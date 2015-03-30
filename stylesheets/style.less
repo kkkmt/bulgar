@@ -8,11 +8,9 @@
 	// header style
 	width: 100%;
 	height: @header_height;
-
 	position: fixed;
 	top: 0;
 	left: 0;
-
 	background: @bg_color;
 	.bottom_line;
 
@@ -29,19 +27,32 @@
 	}
 
 	nav {
-		height: @nav_height;
+		display:block;
+		position:absolute;
+		top: @header_height - @font_size - 3;
+		z-index: 2;
+		right: 10px;
 
-		ul {
-			position: fixed;
-			top: @header_height - @nav_height;
-			right: 10px;
+		li {
+			display:inline-block;
+			position:relative;
+			margin: 0px 5px;
+			
+			ul {
+				position:absolute;
+				top:15px;
+				display:none;  
+				background: #000;
+			}
 
-			li {
-				display: inline;
+			&:hover {
+				ul {
+					display: block;
+				}
 			}
 		}
 	}
-
+	
 	#nav_category {
 		position: fixed;
 		top: @header_height - @nav_height;
@@ -64,6 +75,7 @@
 
 		ol {
 			margin-left: 10px;
+			
 			li {
 				list-style-type: none;
 			}
