@@ -3,6 +3,7 @@
 @border_color: #0F0; 
 @link_color: #ffd700;
 @ff: monospace; //font-family
+@font_size: 11px;
 
 * {
 	margin: 0;
@@ -14,6 +15,7 @@ body {
 	background: @bg_color;
 	color: @text_color;
 	font-family: @ff;
+	font-weight: @font_size;
 }
 
 a {
@@ -34,7 +36,7 @@ a {
 	border-bottom: @size @color @type;
 }
 
-.inverse_color {
+.inverse_color() {
 	background: @text_color;
 	color: @bg_color;
 }
