@@ -59,9 +59,9 @@
 </head>
 <body>
 	<div class="login_form">
-		> <input type="text" id="flogin" name="login_in">
+		 <input type="text" id="flogin" name="login_in">
 		<form method="post">
-			> <input type="submit"  id="loginin" name="create" value="Вход">
+			 <input type="submit"  id="loginin" name="create" value="Вход">
 
 		</form> 
 	</div>

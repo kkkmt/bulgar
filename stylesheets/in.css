@@ -1,6 +1,5 @@
 *{margin:0;padding:0}
-body{width:100%;background:#000;color:#0f0;font-family:monospace}
+body{width:100%;background:#000;color:#0f0;font-family:monospace;font-weight:11px}
 a{color:#ffd700;text-decoration:none}a:hover{text-decoration:underline}
-.login_form{width:250px;position:fixed;margin-top:15%;left:50%;margin-left:-125px}.login_form #flogin,.login_form #loginin{color:#0f0;background:#000;border:0 #000 solid}
-.login_form #flogin{border-bottom:1px #0f0 solid}
-.login_form #loginin{padding-top:5px}
+.login_form{width:250px;position:fixed;margin-top:15%;left:50%;margin-left:-125px;border:1px #0f0 solid;padding:5px 10px;text-align:center}.login_form #flogin,.login_form #loginin{width:90%;color:#0f0;background:#000;border:0 #000 solid;font-family:monospace}
+.login_form #loginin{margin-top:-1px;border:1px #000 solid;border-top:1px #0f0 solid}.login_form #loginin:hover{border:1px #0f0 solid}
